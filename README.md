@@ -1,16 +1,60 @@
 # Enterprise Security Architecture
 
-This repository contains example enterprise cybersecurity architecture models that demonstrate how modern organizations structure security controls across identity, infrastructure, cloud environments, and security operations.
+## Overview
+This repository contains enterprise cybersecurity architecture models that demonstrate how modern organizations design and implement security across identity, infrastructure, cloud environments, and security operations.
 
-The goal of this project is to illustrate how different security domains integrate to protect enterprise systems and data.
+The focus is on aligning architecture with governance, risk management, and operational execution.
 
-## Topics Covered
+---
 
-• Zero Trust architecture models  
-• Identity security architecture (IAM / IGA / PAM)  
-• Security Operations Center (SOC) monitoring pipelines  
-• Cloud security architecture  
+## Objectives
+- Illustrate end-to-end security architecture across key domains
+- Demonstrate integration between IAM, SecOps, and cloud security
+- Provide reference models for enterprise security design
+- Align architecture with governance and compliance frameworks
 
-All examples are generic and intended for educational demonstration purposes only.
+---
 
-No proprietary or production environment information is included.
+## Scope
+This repository covers high-level and mid-level architecture patterns, including:
+
+- Identity & Access Management (IAM / IGA / PAM)
+- Zero Trust Architecture
+- Security Operations (SOC) pipelines
+- Cloud Security (Azure-focused)
+- Network and infrastructure security
+
+---
+
+## Architecture Domains
+
+### Identity Security
+- RBAC / ABAC models
+- Privileged Identity Management (PIM)
+- Identity lifecycle and governance
+
+### Cloud Security
+- Azure landing zone security design
+- Resource segmentation and access control
+- Policy enforcement and compliance
+
+### Security Operations
+- SIEM integration and log pipelines
+- Threat detection and response workflows
+- Alert triage and escalation paths
+
+### Zero Trust
+- Conditional access strategies
+- Least privilege enforcement
+- Continuous verification models
+
+---
+
+## Repository Structure
+
+```bash
+architecture/
+├── identity/
+├── cloud/
+├── network/
+├── security-operations/
