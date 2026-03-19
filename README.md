@@ -54,12 +54,13 @@ This repository covers high-level and mid-level architecture patterns, including
 
 ```bash
 architecture/
-## Governance Reference
-
-This repository is part of a broader enterprise security program:
-
-https://github.com/georgeveitl-cmd/enterprise-security-governance
 ├── identity/
 ├── cloud/
 ├── network/
 ├── security-operations/
+## Governance Reference
+
+This repository is part of a broader enterprise security program that includes architecture, operations, and governance components.
+
+Central governance framework:
+https://github.com/georgeveitl-cmd/enterprise-security-governance
